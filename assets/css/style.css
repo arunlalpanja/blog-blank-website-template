@@ -1,0 +1,73 @@
+/* Custom Style */
+
+
+.scrollToTop {
+	padding: 10px;
+	color: #444;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	z-index: 99;
+}
+
+
+.owl-item.center .item h4 {
+	color: red;
+}
+
+
+.swift-up-text {
+  margin: 0;
+  letter-spacing: -1px;
+  font-size: 40px;
+}
+span{
+  display: inline-block;
+  overflow: hidden;
+  animation: .3s swift-up ease-in-out forwards;	
+}
+i{
+  font-style: normal;
+  position: relative;
+  top: 40px;
+  animation: .5s swift-up ease-in-out forwards;
+}
+@keyframes swift-up {
+  to {
+    top: 0;
+  }
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
